@@ -1,0 +1,177 @@
+.menu {
+  z-index: 100; }
+  .menu ul {
+    list-style: none; }
+    .menu ul li {
+      display: inline-block;
+      padding: 30px 10px 65px 10px; }
+      .menu ul li a {
+        text-decoration: none;
+        color: #b0b0b0; }
+    .menu ul li:hover {
+      background: #f15c24; }
+
+.banner {
+  position: relative;
+  top: -5rem; }
+  .banner .txt-banner {
+    position: absolute;
+    text-align: justify;
+    color: #fff;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 40%; }
+
+.nosotros {
+  position: relative; }
+  .nosotros .imgs {
+    position: relative;
+    transform: rotate(45deg) translateY(-47.2%);
+    float: right; }
+    .nosotros .imgs .img1, .nosotros .imgs .img2 {
+      width: 250px;
+      height: 250px;
+      margin: 5px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .nosotros .imgs .img1:hover, .nosotros .imgs .img2:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .nosotros .txt-nosotros {
+    width: 40%;
+    text-align: justify; }
+    .nosotros .txt-nosotros h1 {
+      color: #f15c24;
+      font-size: 3em; }
+      .nosotros .txt-nosotros h1 span {
+        color: #fff;
+        background: #f15c24; }
+  .nosotros .mision, .nosotros .vision {
+    padding: 0;
+    text-align: justify; }
+    .nosotros .mision h2, .nosotros .vision h2 {
+      color: #f15c24; }
+
+.triangle-img-container {
+  height: 900px;
+  width: 800px;
+  position: absolute;
+  overflow: hidden; }
+
+.triangle-img-inner {
+  height: 70.75%;
+  width: 70.75%;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  overflow: hidden; }
+  .triangle-img-inner .triangle-img {
+    background-size: cover;
+    background-position: center;
+    height: 150%;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    position: absolute;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(-45deg); }
+
+.servicios {
+  padding-bottom: 45rem; }
+  .servicios figcaption {
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px; }
+    .servicios figcaption .txt-info {
+      text-align: justify;
+      margin: 0 auto;
+      width: 40%; }
+    .servicios figcaption hgroup {
+      color: #1c2c76; }
+      .servicios figcaption hgroup h1, .servicios figcaption hgroup h2, .servicios figcaption hgroup h3 {
+        margin-top: 0; }
+      .servicios figcaption hgroup h1 span {
+        background: #1c2c76;
+        color: #fff; }
+  .servicios .imgs {
+    position: relative;
+    text-align: center;
+    margin-left: 7rem; }
+    .servicios .imgs .img1, .servicios .imgs .img2 {
+      max-width: 300px;
+      max-height: 300px;
+      transform: rotate(45deg) translateY(50%); }
+
+.productos header {
+  text-align: justify;
+  margin-bottom: 5rem; }
+  .productos header p {
+    width: 30%; }
+  .productos header h1 {
+    font-size: 3em;
+    color: #f15c24; }
+    .productos header h1 span {
+      background: #f15c24;
+      color: #fff; }
+
+.tarjetas {
+  margin-bottom: 20px;
+  padding: 0 !important; }
+  .tarjetas figure img {
+    padding: 0;
+    max-width: 400px;
+    max-height: 200px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .tarjetas .trj-txt {
+    width: 35%;
+    text-align: justify; }
+    .tarjetas .trj-txt p {
+      border-top: 2px solid #ADADAD; }
+
+.noticias header {
+  text-align: center; }
+  .noticias header h1 {
+    font-size: 3em;
+    color: #1c2c76; }
+    .noticias header h1 span {
+      background: #1c2c76;
+      color: #fff; }
+.noticias div .thumb {
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .noticias div .thumb:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .noticias div .thumb figure img {
+    max-width: 100%; }
+  .noticias div .thumb .caption {
+    margin: 10px; }
+    .noticias div .thumb .caption .boton {
+      text-decoration: none;
+      border: 0;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 16px;
+      margin: 6px 8px 6px 0;
+      min-width: 88px;
+      padding: 10px 0;
+      text-align: center;
+      transition: 0.1s all ease;
+      background: #1c2c76;
+      border: #dbdbdb;
+      color: #fff; }
+
+.contacto header h1 {
+  text-align: center;
+  color: #f15c24;
+  font-size: 3em; }
+  .contacto header h1 span {
+    background: #f15c24;
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
